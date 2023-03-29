@@ -1,14 +1,26 @@
 package day08;
 
+import java.util.Scanner;
+
 public class C02_loop2 {
     public static void main(String[] args) {
-        //sum all number between 1 to 10
-        //1+2+3+4+5+6+7+8+9+10=55
-        int total=0;
-        for (int i = 1; i <11 ; i++) {
 
-              total +=i;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter begin and ending number for sum calculator");
+        int x = scanner.nextInt();
+        int y =  scanner.nextInt();
+
+        System.out.println(sum(x,y));
+
+    }
+
+
+    public static int sum(int begin , int end){ // begin =10 end= 15  10+11+12+13+14+15
+        int total =0;
+        for (int i = begin ; i <=end; i++){
+            total +=i;
+
         }
-        System.out.println("Sum number between 1-10="+total);
+        return total;
     }
 }
