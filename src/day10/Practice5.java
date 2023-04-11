@@ -10,19 +10,13 @@ public class Practice5 {
          *      1 2 3
          *    1 2 3 4
          */
-        Scanner in = new Scanner(System.in);
-        System.out.print("Input the number: ");
-        int n = in.nextInt();
-
-        for (int i = 0; i < n; i++)
-        {
-            for (int num = n - i; num > 0; num--)
-            {
+       int n=4;//row number
+        for (int i = 1; i <=n ; i++) {//row
+            for (int j = n; j>i ; j--) {//space
                 System.out.print(" ");
             }
-            for (int j = 1; j <= i; j++)
-            {
-                System.out.print(i);
+            for (int k = 1; k <=i ; k++) {
+                System.out.print(k);
             }
             System.out.println();
         }
