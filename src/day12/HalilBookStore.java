@@ -13,9 +13,7 @@ public class HalilBookStore {
         javaBook.bookPublishYear=2020;
 
 
-        System.out.println(javaBook.age());
-        javaBook.changeToColor("Red");
-        javaBook.changeToColor("Black");
+
         System.out.println(javaBook.bookAllInfo());
 
     }

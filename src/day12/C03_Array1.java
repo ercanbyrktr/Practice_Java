@@ -8,7 +8,7 @@ public class C03_Array1 {
 
         String teacherName="Kursad";
 
-        int[] numbers={1,5,9,8,7,22};
+        int[] numbers={1,5,90,8,7,22};
         String[] name={"Ercan","Furkan","Halil","Asil","Emel","Serpil","Amr","Arda","Ensar","Abdurrahim"};
 
         //System.out.println(name.length);//for array

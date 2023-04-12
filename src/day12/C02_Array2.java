@@ -1,6 +1,6 @@
 package day12;
 
-public class C02_Arrays2 {
+public class C02_Array2 {
     public static void main(String[] args) {
         String[] name={"Ercan","Furkan","Halil","Asil","Emel","Serpil","Amr","Arda","Ensar","Abdurrahim"};
         String longest=name[0];
