@@ -8,5 +8,6 @@ public class IsDigit {
         for (int i = 0; i <edition.length() ; i++) {
             str += edition.charAt(i);
             System.out.println(Character.isDigit(str.charAt(i)));
+        }
     }
 }
